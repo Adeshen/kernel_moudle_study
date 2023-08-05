@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "netfilter.h": "c",
+        "time.h": "c",
+        "types.h": "c",
+        "nf_conntrack_core.h": "c",
+        "time_types.h": "c",
+        "unistd.h": "c",
+        "stdio.h": "c",
+        "glob.h": "c"
+    }
+}
