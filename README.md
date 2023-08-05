@@ -1,5 +1,6 @@
 # kernel_moudle_study
 
 
-## helloworld:base echo something in dmesg
+## helloworld:simply echo something in dmesg
 
+## netfiliter_hook: simply cat the sk_buff from the host

